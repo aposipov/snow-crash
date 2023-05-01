@@ -1,1 +1,3 @@
 ## level00
+Hint in [video](https://elearning.intra.42.fr/notions/snow-crash/subnotions/snow-crash/videos/snow-crash)  
+FIND this first file who can run only as flag00...  

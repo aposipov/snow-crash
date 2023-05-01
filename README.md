@@ -9,3 +9,7 @@ download iso image
 ssh level00@<your ip> -p 4242
 ```
 enter the `password: level00`
+## usefull links
+cloudeshark.org
+dcode.fr
+duckduckgo.com

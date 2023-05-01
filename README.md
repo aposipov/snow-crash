@@ -8,3 +8,4 @@ download iso image
 ```
 ssh level00@<your ip> -p 4242
 ```
+enter the `password: level00`

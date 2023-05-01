@@ -13,10 +13,8 @@ cdiiddwpgswtgt
 use [dcode.fr](https://www.dcode.fr/caesar-cipher) result `nottoohardhere` is your password
 ```
 level00@SnowCrash:~$ su flag00
-Password: 
-Don't forget to launch getflag !
-flag00@SnowCrash:~$ getf
-getfacl  getflag  
+Password: nottoohardhere
+Don't forget to launch getflag ! 
 flag00@SnowCrash:~$ getflag 
 Check flag.Here is your token : x24ti5gi3x0ol2eh4esiuxias
 ```

@@ -2,6 +2,7 @@
 ```
 flag00@SnowCrash:~$ su level01
 Password: x24ti5gi3x0ol2eh4esiuxias
+level01@SnowCrash:~$
 ```
 you need install [Kali Linux](https://www.kali.org/) image for [VB](https://www.kali.org/get-kali/#kali-virtual-machines)  
 research /etc/passwd /etc/shadow

@@ -38,8 +38,6 @@ Session completed.
 level01@SnowCrash:~$ su flag01 
 Password: abcdefg
 Don't forget to launch getflag !
-```
-```
 flag01@SnowCrash:~$ getflag 
 Check flag.Here is your token : f2av5il02puano7naaf6adaaf
 ```

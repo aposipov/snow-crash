@@ -18,5 +18,5 @@ ltrace, strings
 xxd, hexdump  
 nc
 ANSII
-tmux
+tmux  
 [more on wiki](https://github.com/aposipov/snow-crash/wiki)

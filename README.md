@@ -13,3 +13,7 @@ enter the `password: level00`
 cloudeshark.org  
 [dcode.fr](https://www.dcode.fr/caesar-cipher)  
 duckduckgo.com  
+# usefull app
+ltrace, strings  
+xxd, hexdump  
+nc

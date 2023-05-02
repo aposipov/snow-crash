@@ -16,6 +16,7 @@ d--x--x--x 1 root    users    340 Aug 30  2015 ..
 ```
 Use `ltrace` program that simply runs the specified command until it exits.
 It intercepts and records the dynamic library calls as well as the system calls executed by the program.
+another you can use `strings`
 ```
 level03@SnowCrash:~$ ltrace ./level03 
 __libc_start_main(0x80484a4, 1, 0xbffff7e4, 0x8048510, 0x8048580 <unfinished ...>

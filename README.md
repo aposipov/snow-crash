@@ -17,3 +17,5 @@ duckduckgo.com
 ltrace, strings  
 xxd, hexdump  
 nc
+ANSII
+tmux

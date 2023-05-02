@@ -26,6 +26,18 @@ cat: token: Permission denied
 level10@SnowCrash:~$ ./level10 .bashrc 0.0.0.0
 Connecting to 0.0.0.0:6969 .. Unable to connect to host 0.0.0.0
 ```
-i use `tmux` for multi windows
-`0.0.0.0:6969` we will be listen this port for `nc` 
-
+i use `tmux` for multi windows  
+`0.0.0.0:6969` we will be listen this port with  help `nc`
+```
+nc -l 6969
+```
+create file for test connection 
+```
+echo Hello! > /tmp/test
+./level10 /tmp/test 0.0.0.0
+```
+```
+level10@SnowCrash:~$ nc -l 6969
+.*( )*.
+hello!
+```

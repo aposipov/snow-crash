@@ -57,7 +57,7 @@ print(final_str)
 output: `ft_waNDReL0L`  
 ```
 level02@SnowCrash:~$ su flag02
-Password: 
+Password: ft_waNDReL0L
 Don't forget to launch getflag !
 flag02@SnowCrash:~$ getflag 
 Check flag.Here is your token : kooda2puivaav1idi4f57q8iq

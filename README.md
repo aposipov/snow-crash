@@ -19,3 +19,4 @@ xxd, hexdump
 nc
 ANSII
 tmux
+[more on wiki](https://github.com/aposipov/snow-crash/wiki)

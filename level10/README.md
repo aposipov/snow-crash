@@ -41,3 +41,8 @@ level10@SnowCrash:~$ nc -l 6969
 .*( )*.
 hello!
 ```
+create link for `token`
+```
+level10@SnowCrash:~$ ./level10 /tmp/link 0.0.0.0
+You don't have access to /tmp/link
+```

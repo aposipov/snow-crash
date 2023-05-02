@@ -48,3 +48,11 @@ void    main(void)
 level09@SnowCrash:/tmp$ gcc 1.c ; cat ~/token | ./a.out
 f3iji1ju5yuevaus41q1afiuq
 ```
+```
+level09@SnowCrash:/tmp$ su flag09
+Password: 
+Don't forget to launch getflag !
+flag09@SnowCrash:~$ getflag
+Check flag.Here is your token : s5cAJpM8ev6XHw998pRWG728z
+flag09@SnowCrash:~$
+```

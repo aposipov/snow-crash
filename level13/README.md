@@ -52,7 +52,7 @@ Dump of assembler code for function main:
    0x0804858d <+1>:	mov    %esp,%ebp
    0x0804858f <+3>:	and    $0xfffffff0,%esp
    0x08048592 <+6>:	sub    $0x10,%esp               
-   0x08048595 <+9>:	call   0x8048380 <getuid@plt>      # getuid() is called and the result is stored in eax register
+   0x08048595 <+9>:	call   0x8048380 <getuid@plt>  # getuid() is called and the result is stored in eax register
    0x0804859a <+14>:	cmp    $0x1092,%eax            # %eax register is compared against 0x1092 (4242)    
    0x0804859f <+19>:	je     0x80485cb <main+63>     # if it equal jump to 0x080485cb
    0x080485a1 <+21>:	call   0x8048380 <getuid@plt>
@@ -88,9 +88,8 @@ Display value of eax register in decimal format.
 (gdb) display/d $eax
 7: $eax = 2013
 ```
-As instruction on 0x0804859f expects that UID is equal to 0x1092, the value of register should be modified.
-
-Use set command to set the variable to a value 0x1092.
+As instruction on `0x0804859f` expects that UID is equal to `0x1092`, the value of register should be modified.
+Use set command to set the variable to a value `0x1092`.
 ```
 (gdb) set $eax=0x1092
 ```

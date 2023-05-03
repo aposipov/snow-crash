@@ -77,3 +77,32 @@ Breakpoint 1 at 0x804859a
 (gdb) run
 Starting program: /home/user/level13/level13
 ```
+Examine x current instructions i line.
+```
+(gdb) x/i $pc
+1: x/i $pc
+=> 0x804859a <main+14>:	cmp    $0x1092,%eax
+```
+Display value of eax register in decimal format.
+```
+(gdb) display/d $eax
+7: $eax = 2013
+```
+As instruction on 0x0804859f expects that UID is equal to 0x1092, the value of register should be modified.
+
+Use set command to set the variable to a value 0x1092.
+```
+(gdb) set $eax=0x1092
+```
+Ensure that the variable is initialized correctly.
+```
+(gdb) display/d $eax
+16: /d $eax = 4242
+```
+Continues program execution after a breakpoint.
+```
+(gdb) continue
+Continuing.
+your token is 2A31L79asukciNyi8uppkEuSx
+[Inferior 1 (process 2981) exited with code 050]
+```

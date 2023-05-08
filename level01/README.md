@@ -7,6 +7,9 @@ level01@SnowCrash:~$
 you need install [Kali Linux](https://www.kali.org/) image for [VB](https://www.kali.org/get-kali/#kali-virtual-machines)  
 research /etc/passwd /etc/shadow
 ```
+find / -type f -exec grep -H "flag01" {} \; 2>/dev/null
+```
+```
 level01@SnowCrash:~$ cat /etc/passwd
 [...]
 level14:x:2014:2014::/home/user/level14:/bin/bash
